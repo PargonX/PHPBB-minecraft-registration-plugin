@@ -1,0 +1,8 @@
+name: RegistrationPlugin
+version: '1.0'
+main: network.vonix.registrationplugin.RegistrationPlugin
+api-version: '1.20'
+commands:
+  register:
+    description: Register with your email and password.
+    usage: /register <email> <password>
