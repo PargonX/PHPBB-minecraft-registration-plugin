@@ -52,7 +52,7 @@ public class RegistrationPlugin extends JavaPlugin {
 
             try {
                 // Create connection to the registration endpoint
-                URL url = new URL(forumUrl + "/regiapi.php");
+                URL url = new URL(forumUrl + "/registerapi.php");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("POST");
                 conn.setDoOutput(true);
